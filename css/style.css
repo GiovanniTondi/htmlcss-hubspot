@@ -68,23 +68,41 @@ header {
   width: 100%;
   height: 60px;
   line-height: 60px;
+  background-color: #f4f7f9;
   border-bottom: solid 1px #000;
-  /* DEBUG:  */
-  background-color: red;
 }
 
 .fixed-nav li {
     display: inline-block;
+    padding: 0 20px;
+}
+
+.fixed-nav li a {
+    text-decoration: none;
+    color: #000;
 }
 
 /* MENU */
 .menu-inline {
-  margin-top: 60px;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 .menu-inline li {
     display: inline-block;
+    padding-right: 25px;
 }
 
 .menu-inline li a {
     text-decoration: none;
+    color: #000;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    height: 700px;
+    background-image: url("../img/jumbotron.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #fff4ed;
 }
