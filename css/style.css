@@ -127,7 +127,7 @@ header {
     background-position: right;
     background-size: cover;
     background-color: #fff4ed;
-    border-bottom: solid 5px #2f3f53;
+    /* border-bottom: solid 5px #2f3f53; */
 }
 
 .jumbo-container {
