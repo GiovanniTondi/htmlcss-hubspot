@@ -12,7 +12,7 @@ body {
 }
 
 .p-center {
-    padding: 0 10%;
+    padding: 0 15%;
 }
 
 
@@ -27,20 +27,22 @@ body {
 
 /* Buttons */
 .btn {
-    padding: 10px 25px;
-    border: solid 1px #fff;
-    border-radius: 8px;
+    padding: 7px 15px;
+    border: solid 1px #ff7353;
+    border-radius: 5px;
     text-decoration: none;
-    color: #fff;
+    color: #ff7353 !important;
 }
 
 .btn-orange {
-    background-color: ;
+    background-color: #ff7353;
+    color: #fff !important;
+    font-weight: bold;
     border: 0;
 }
 
 .btn-large {
-    padding: 25px 35px;
+    padding: 15px 35px;
     font-weight: bold;
 }
 
@@ -72,9 +74,14 @@ header {
   border-bottom: solid 1px #000;
 }
 
+.fixed-nav #nav-language {
+    padding-right: 15px;
+    border-right: solid 1px #000;
+}
+
 .fixed-nav li {
     display: inline-block;
-    padding: 0 20px;
+    padding-right: 15px;
 }
 
 .fixed-nav li a {
@@ -84,9 +91,15 @@ header {
 
 /* MENU */
 .menu-inline {
-  margin-top: 80px;
-  margin-bottom: 20px;
+  margin-top: 60px;
+  height: 60px;
+  line-height: 60px;
 }
+
+.menu-inline #logo {
+    margin-top: 15px;
+}
+
 .menu-inline li {
     display: inline-block;
     padding-right: 25px;
@@ -100,13 +113,34 @@ header {
 
 /* Jumbotron */
 .jumbotron {
-    height: 700px;
+    height: 830px;
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
     background-color: #fff4ed;
+    border-bottom: solid 5px #2f3f53;
 }
 
+.jumbo-container {
+    width: 40%;
+    padding-top: 130px;
+}
+
+.jumbo-container h1 {
+    font-size: 48px;
+}
+
+.jumbo-container p {
+    margin: 35px 0 45px;
+    font-size: 18px;
+}
+
+.jumbo-container span {
+    display: block;
+    margin: 50px 0;
+    font-size: 14px;
+}
 
 /* sezioni */
 .prima {
