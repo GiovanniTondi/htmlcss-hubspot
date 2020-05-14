@@ -106,3 +106,28 @@ header {
     background-position: right;
     background-color: #fff4ed;
 }
+
+
+/* sezioni */
+.prima {
+    /* DEBUG:  */
+    height: 1000px;
+    background-color: #f4f7f9;
+}
+
+.seconda {
+    /* DEBUG:  */
+    height: 1000px;
+    background-color: #01b2a1;
+}
+
+.terza {
+    /* DEBUG:  */
+    height: 1000px;
+    border-bottom: solid 1px #000;
+}
+
+.quarta {
+    /* DEBUG:  */
+    height: 1000px;
+}
