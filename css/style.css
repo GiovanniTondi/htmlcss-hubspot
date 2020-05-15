@@ -58,7 +58,7 @@ main > section .macro-blocco {
 
 .col-25 {
     width: 25%;
-    padding: 20px;
+    padding: 30px;
 }
 
 .col-25 i {
@@ -69,14 +69,15 @@ main > section .macro-blocco {
 }
 
 .col-25 img {
-    height: 50px;
+    max-height: 50px;
+    max-width: 115px;
 }
 
 .col-25 .dati-numerici {
     display: block;
     font-size: 32px;
     font-weight: 900;
-    margin: 15px auto;
+    margin: 20px auto;
 }
 
 .col-25 .dati-numerici::after {
@@ -325,6 +326,11 @@ header {
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
+.sez-griglia .macro-blocco > div {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
 .sez-griglia .col-25:not(:first-child) {
     border-left: solid 1px #fff;
 }
@@ -332,6 +338,7 @@ header {
 .sez-griglia .riga-1 {
     border-bottom: solid 1px #fff;
 }
+
 
 .terza {
     /* DEBUG:  */
