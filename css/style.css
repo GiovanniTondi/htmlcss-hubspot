@@ -1,5 +1,8 @@
 /* *** REGOLE GENERALI *** */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 * {
     margin: 0;
@@ -8,11 +11,12 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 p {
     font-size: 18px;
+    line-height: 1.7em;
 }
 
 main > section {
@@ -44,12 +48,49 @@ main > section .macro-blocco {
     clear: both;
 }
 
+[class*="col-"] {
+    float: left;
+}
+
 .col-33:nth-child(2n+2) {
     margin: 0 5%;
 }
 
+.col-25 {
+    width: 25%;
+    padding: 20px;
+}
+
+.col-25 i {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.col-25 img {
+    height: 50px;
+}
+
+.col-25 .dati-numerici {
+    display: block;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 15px auto;
+}
+
+.col-25 .dati-numerici::after {
+    vertical-align: middle;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-size: 0.4em;
+    content: "\f067"
+}
+
+
 .col-33 {
-    float: left;
     width: 30%;
 }
 
@@ -60,7 +101,6 @@ main > section .macro-blocco {
 }
 
 .col-66 {
-    float: left;
     width: 66%;
     margin-left: 1%;
     padding: 20px 0;
@@ -145,6 +185,9 @@ header {
   margin-top: 75px;
   height: 70px;
   line-height: 70px;
+  box-shadow:0px 1px 1px #de1dde;
+  /* box-shadow: 0px 0px 3px #c5cacc; */
+  /* border-bottom: solid 2px #606060; */
 }
 
 .menu-inline #logo {
@@ -267,14 +310,27 @@ header {
     margin: 10px 20px;
 }
 
-.cards .cards-full {
+.cards.cards-full {
     width: 100%;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
-.seconda {
+.cards.cards-full img {
+    margin-top: 25px;
+}
+
+.sez-griglia {
     color: #fff;
+    font-weight: bold;
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+}
+
+.sez-griglia .col-25:not(:first-child) {
+    border-left: solid 1px #fff;
+}
+
+.sez-griglia .riga-1 {
+    border-bottom: solid 1px #fff;
 }
 
 .terza {
