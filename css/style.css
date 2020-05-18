@@ -388,3 +388,33 @@ header .jumbo-container {
     margin-left: 20%;
     height: 370px;
 }
+
+/* *** FOOTER *** */
+footer {
+    color: #fff;
+    background-color: #33475b;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .col-25 {
+    padding-left: 0;
+    text-align: left;
+}
+
+footer .col-25 li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer .col-25 li:first-child {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
