@@ -117,10 +117,18 @@ main > section .macro-blocco {
 /* Buttons */
 .btn {
     padding: 7px 15px;
-    border: solid 1px #ff7353;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.btn-transparent {
+    border: solid 1px #ff7353;
     color: #ff7353 !important;
+}
+
+.btn-white {
+    color: #33475b;
+    background-color: #fff;
 }
 
 .btn-orange {
@@ -196,7 +204,7 @@ header {
   /* border-bottom: solid 2px #606060; */
 }
 
-.menu-inline #logo {
+.menu-inline .logo {
     margin-top: 15px;
 }
 
@@ -404,17 +412,65 @@ footer a {
     color: #fff;
 }
 
-footer .col-25 {
+footer .menu-list .col-25 {
     padding-left: 0;
     text-align: left;
 }
 
-footer .col-25 li {
+footer .menu-list .col-25 li {
     font-size: 16px;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
-footer .col-25 li:first-child {
+footer .menu-list .col-25 li:first-child {
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+footer .menu-list .btn-list {
+    margin-top: 25px;
+    margin-bottom: 20px !important;
+}
+
+footer .menu-list .social-list a {
+    margin-right: 30px;
+}
+
+footer .menu-list .social-list .fab {
+    font-size: 14px !important;
+    font-weight: 100;
+}
+
+footer .menu-footer {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+footer .menu-footer li {
+    display: inline-block;
+}
+
+footer .menu-footer a {
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+footer .language {
+    text-align: center;
+    margin: 20px auto;
+    border-bottom: solid 1px #fff;
+}
+
+footer .language li {
+    display: inline-block;
+    margin: 20px auto;
+}
+
+footer .language a {
+    padding: 0 25px;
+}
+
+#Copyright {
+    display: block;
 }
